@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Create Directory and File') {
             steps {
-                    sh 'touch ll'
+                    sh 'mkdir  napo'
                 
             }
         }
